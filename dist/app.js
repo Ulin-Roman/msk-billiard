@@ -21,3 +21,7 @@ const dialog=document.getElementById('image-dialog');
 awards.forEach((file,i)=>{const button=document.createElement('button');button.className='award-button';button.setAttribute('aria-label','Открыть диплом '+(i+1));const img=document.createElement('img');img.src='assets/'+file;img.alt='Диплом или награда Ильи Сурмина '+(i+1);img.loading='lazy';img.width=200;img.height=250;button.append(img);button.addEventListener('click',()=>{dialog.querySelector('img').src=img.src;dialog.querySelector('img').alt=img.alt;dialog.showModal();});document.getElementById('awards-gallery').append(button);});
 dialog.querySelector('button').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+function openPrivacy(){if(location.hash==='#privacy')document.getElementById('privacy-details').open=true;}
+window.addEventListener('hashchange',openPrivacy);
+document.querySelectorAll('a[href="#privacy"]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('privacy-details').open=true;}));
+openPrivacy();
