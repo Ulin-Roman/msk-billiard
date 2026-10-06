@@ -10,3 +10,5 @@
 @media(max-width:1180px){.header-contacts .header-phone span{display:none}.header-contacts .header-phone{width:36px}.header-inner{gap:16px}.header nav{gap:15px}}
 @media(max-width:800px){.header-contacts{margin-left:auto}.menu-toggle{margin-left:0}.header-inner{gap:12px}}
 @media(max-width:600px){.header-inner{gap:5px}.header .brand{font-size:.64rem;letter-spacing:.025em;gap:7px;white-space:normal}.header .brand>span:last-child{max-width:83px}.header .brand small{display:none}.header .brand-mark{width:30px;height:30px;font-size:.85rem}.header-contacts{gap:2px}.header-contacts .header-phone{width:34px}.messenger-icon{width:34px}.messenger-icon img{width:29px;height:29px}.menu-toggle{width:34px;min-width:34px}.header-inner{min-height:76px}}
+@media(max-width:600px){.gift-grid{grid-template-columns:minmax(0,1fr)}.gift-grid>div{min-width:0}.gift-label{flex-wrap:wrap}.gift-details h3{font-size:clamp(2rem,9vw,3rem)}.gift-prices{gap:22px;flex-wrap:wrap}}
+@media(max-width:360px){h2,.gift-section h2,.school-copy h2{font-size:2.2rem}.gift-details{padding:23px}.header-contacts .header-phone{width:32px}.messenger-icon{width:32px}}
