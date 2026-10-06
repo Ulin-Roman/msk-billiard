@@ -36,3 +36,9 @@
 ## Иконки связи
 
 Фирменные значки Telegram и MAX взяты с официальных сайтов: https://telegram.org/img/website_icon.svg?4 и https://max.ru/favicon.svg. MAX показан без перехода, пока владелец не предоставит ссылку на контакт школы; ссылка не выдумывалась.
+
+## GitHub Pages
+
+Адрес сайта: https://ulin-roman.github.io/msk-billiard/
+После каждого push в main GitHub Actions проверяет JavaScript и автоматически публикует dist/.
+В настройках Pages должен быть выбран источник GitHub Actions.
